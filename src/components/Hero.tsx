@@ -52,6 +52,15 @@ export function Hero() {
               <PhoneIcon className="h-5 w-5 text-brand-yellow" aria-hidden="true" />
               {business.phoneDisplay}
             </a>
+
+            <a
+              href="#promotions"
+              className="inline-flex items-center gap-2 rounded-full border border-brand-yellow/30 bg-brand-yellow/10 px-4 py-2 text-sm font-black text-brand-yellow transition hover:border-brand-yellow/60 hover:bg-brand-yellow/20"
+            >
+              <span>🔥</span>
+              מבצעים חמים עכשיו
+              <span className="text-xs">↓</span>
+            </a>
           </div>
 
           {/* LEFT column in RTL — features */}

@@ -77,6 +77,5 @@ export type PromotionsContent = ContentSection & {
     title: string;
     description: string;
     price: string;
-    icon: IconName;
   }>;
 };
